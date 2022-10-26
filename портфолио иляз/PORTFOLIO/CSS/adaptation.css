@@ -1,0 +1,25 @@
+@import "./portfolio.css";
+
+@media (max-width: 1680px){
+ .header_container{
+    width: 100%;
+ }   
+
+}
+@media (max-width: 1378px){
+    .intro_subtitle::after {
+        left: 36%;
+    }
+    .intro_subtitle::before{
+        left: 60%;
+    }
+    
+}
+@media (max-width: 1020px){
+    .intro_subtitle::after{
+        display: none;
+    }
+    .intro_subtitle::before{
+        display: none;
+    }
+}
